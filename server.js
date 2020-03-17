@@ -21,7 +21,6 @@ app.get("/", function (req, res) {
 
 
 app.get("/api/whoami", function (req, res) {
-  console.log(req);
   res.json(
     {
       ipaddress: req.ip,
